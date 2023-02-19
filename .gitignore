@@ -17,7 +17,10 @@ node_modules
 
 # Compiled TypeScript files
 *.js
-!jest.config.js
 
 # Dependencies installed with npm or Yarn
 node_modules/
+
+# jest
+!jest.config.js
+coverage/
