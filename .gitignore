@@ -1,0 +1,22 @@
+# Logs
+logs
+*.log
+
+# Build output
+dist
+node_modules
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+
+# Compiled TypeScript files
+*.js
+
+# Dependencies installed with npm or Yarn
+node_modules/
