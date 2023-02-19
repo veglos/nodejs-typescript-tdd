@@ -9,4 +9,13 @@ describe('compoundInterest', () => {
         const interest = compoundInterest(principal, rate, time);
         expect(interest).toBeCloseTo(expectedInterest);
     });
+
+    it('should calculate the compound interest', () => {
+        const principal = 500;
+        const rate = 5;
+        const time = 10;
+        const expectedInterest = 314.45
+        const interest = compoundInterest(principal, rate, time);
+        expect(interest).toBeCloseTo(expectedInterest);
+    });
 });
