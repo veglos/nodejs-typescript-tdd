@@ -1,3 +1,5 @@
 export function compoundInterest(principal: number, rate: number, time: number): number {
-    return 628.89;
+    const amount = principal * Math.pow(1 + rate / 100, time);
+    const interest = amount - principal;
+    return interest;
 }
